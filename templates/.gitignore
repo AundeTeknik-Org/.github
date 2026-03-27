@@ -41,6 +41,20 @@ PublishProfiles/
 _ReSharper*/
 *.[Rr]e[Ss]harper
 StyleCop*.Cache
+.roslyn/
+
+# =====================
+# .NET MAUI / Xamarin
+# =====================
+*.apk
+*.aab
+*.ipa
+*.dsym/
+*.dSYM.zip
+**/Platforms/Android/Assets/*.apk
+**/Resource.designer.cs
+google-services.json
+GoogleService-Info.plist
 
 # =====================
 # NuGet
@@ -124,6 +138,9 @@ temp/
 *.msm
 *.cab
 *.msix
+*.msixbundle
+*.appxbundle
+*.appx
 
 # =====================
 # Archive
@@ -133,3 +150,10 @@ temp/
 *.7z
 *.tar
 *.gz
+
+# =====================
+# Windows CE / WinCE
+# =====================
+*.cab
+*.armv4i
+*.deploy

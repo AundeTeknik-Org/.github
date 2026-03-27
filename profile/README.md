@@ -4,7 +4,19 @@
 
 **Format:** `sirket-platform-projeadi`
 
-**Ornek:** `aunde-win-DetayDikimKilit`
+**Ornek:** `sb-win-DetayDikimKilit`, `dm-api-StokServis`
+
+## Sirket / Lokasyon Kisaltmalari
+
+| Kisaltma | Anlami |
+|----------|--------|
+| `sb` | Serbest Bolge |
+| `km` | Kumas |
+| `is` | Isri Demirtas |
+| `dm` | Aunde Ust Yapi |
+| `ro` | Romanya Aunde |
+| `hu` | Macaristan Aunde |
+| `de` | Almanya Aunde |
 
 ## Platform Kisaltmalari
 
