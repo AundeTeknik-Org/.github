@@ -1,8 +1,6 @@
 name: Auto Assign Team Permissions
 
 on:
-  repository:
-    types: [created]
   workflow_dispatch:
     inputs:
       repo_name:
@@ -22,9 +20,7 @@ jobs:
         run: |
           ORG="AundeTeknik-Org"
 
-          if [ "${{ github.event_name }}" = "repository" ]; then
-            REPOS="${{ github.event.repository.name }}"
-          elif [ -n "${{ github.event.inputs.repo_name }}" ]; then
+          if [ -n "${{ github.event.inputs.repo_name }}" ]; then
             REPOS="${{ github.event.inputs.repo_name }}"
           else
             REPOS=$(gh repo list $ORG --json name --jq '.[].name')
