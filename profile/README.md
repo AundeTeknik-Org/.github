@@ -2,9 +2,9 @@
 
 ## Repo Isimlendirme Kurali
 
-**Format:** `sirket-platform-projeadi`
+**Format:** `sirket-platform-dil-projeadi`
 
-**Ornek:** `sb-win-DetayDikimKilit`, `dm-api-StokServis`
+**Ornek:** `sb-desktop-cs-DetayDikimKilit`, `dm-api-ts-StokServis`
 
 ## Sirket / Lokasyon Kisaltmalari
 
@@ -22,14 +22,40 @@
 
 | Kisaltma | Anlami |
 |----------|--------|
-| `win` | Windows masaustu (WinForms) |
+| `desktop` | Masaustu (WinForms, WPF, MAUI vb.) |
 | `winsvc` | Windows Service |
 | `web` | Web uygulamasi |
 | `api` | API |
+| `blazor` | Blazor uygulamasi |
 | `wince` | Windows CE / El terminali |
-| `mobile` | Mobil (Xamarin vb.) |
+| `mobile` | Mobil (Xamarin, MAUI vb.) |
+| `iot` | IoT / Embedded |
 | `console` | Konsol uygulamasi |
+| `lib` | Ortak kutuphane / Class Library |
+| `db` | Veritabani projesi (SSDT vb.) |
+| `test` | Test projesi |
 | `docs` | Dokuman / Sablon / Kaynak |
+
+## Dil Kisaltmalari
+
+| Kisaltma | Anlami |
+|----------|--------|
+| `cs` | C# |
+| `vb` | Visual Basic |
+| `js` | JavaScript |
+| `ts` | TypeScript |
+| `py` | Python |
+| `java` | Java |
+| `kt` | Kotlin |
+| `swift` | Swift |
+| `go` | Go |
+| `rs` | Rust |
+| `cpp` | C++ |
+| `c` | C |
+| `php` | PHP |
+| `rb` | Ruby |
+| `dart` | Dart (Flutter) |
+| `sql` | SQL |
 
 ## Takim Yapisi
 
@@ -40,7 +66,7 @@
 
 ## Yeni Repo Olusturma Kurallari
 
-1. Isimlendirme formatina uy: `sirket-platform-projeadi`
+1. Isimlendirme formatina uy: `sirket-platform-dil-projeadi`
 2. Visibility: **Private** (aksi belirtilmedikce)
 3. README.md ekle
 4. .gitignore ekle (proje tipine uygun)
