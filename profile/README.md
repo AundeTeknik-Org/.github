@@ -1,5 +1,15 @@
 # AundeTeknik - Repository Standartlari
 
+## Yeni Repo Olusturma Kurallari
+
+1. Isimlendirme formatina uy: `sirket-platform-dil-projeadi`
+2. Visibility: **Private** (aksi belirtilmedikce)
+3. **ZORUNLU:** Template olarak `template-default` secilerek olusturulmali
+4. **README.md** dosyasina proje aciklamasini yaz
+5. Repo → **Settings** → **Collaborators and teams** → **Add teams**:
+   - `Developer` ekle → **Write** yetkisi ver
+   - `Viewer` ekle → **Read** yetkisi ver
+
 ## Repo Isimlendirme Kurali
 
 **Format:** `sirket-platform-dil-projeadi`
@@ -63,13 +73,3 @@
 |-------|-------|----------|
 | **Developer** | Write | Kod yazma, push, PR olusturma |
 | **Viewer** | Read | Sadece okuma |
-
-## Yeni Repo Olusturma Kurallari
-
-1. Isimlendirme formatina uy: `sirket-platform-dil-projeadi`
-2. Visibility: **Private** (aksi belirtilmedikce)
-3. **ZORUNLU:** Template olarak `template-default` secilerek olusturulmali
-4. **README.md** dosyasina proje aciklamasini yaz
-5. Repo → **Settings** → **Collaborators and teams** → **Add teams**:
-   - `Developer` ekle → **Write** yetkisi ver
-   - `Viewer` ekle → **Read** yetkisi ver
