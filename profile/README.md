@@ -1,54 +1,54 @@
-# AundeTeknik - Repository Standartlari
+# AundeTeknik - Repository Standartları
 
-## Yeni Repo Olusturma Kurallari
+## Yeni Repo Oluşturma Kuralları
 
-1. Isimlendirme formatina uy: `sirket-platform-dil-projeadi`
-2. Visibility: **Private** (aksi belirtilmedikce)
-3. **ZORUNLU:** Template olarak `template-default` secilerek olusturulmali
-4. **README.md** dosyasina proje aciklamasini yaz
+1. İsimlendirme formatına uy: `şirket-platform-dil-projeadi`
+2. Visibility: **Private** (aksi belirtilmedikçe)
+3. **ZORUNLU:** Template olarak `template-default` seçilerek oluşturulmalı
+4. **README.md** dosyasına proje açıklamasını yaz
 5. Repo → **Settings** → **Collaborators and teams** → **Add teams**:
    - `Developer` ekle → **Write** yetkisi ver
    - `Viewer` ekle → **Read** yetkisi ver
 
-## Repo Isimlendirme Kurali
+## Repo İsimlendirme Kuralı
 
-**Format:** `sirket-platform-dil-projeadi`
+**Format:** `şirket-platform-dil-projeadı`
 
-**Ornek:** `sb-desktop-cs-DetayDikimKilit`, `dm-api-ts-StokServis`
+**Örnek:** `sb-desktop-cs-DetayDikimKilit`, `dm-api-ts-StokServis`
 
-## Sirket / Lokasyon Kisaltmalari
+## Şirket / Lokasyon Kısaltmaları
 
-| Kisaltma | Anlami |
+| Kısaltma | Anlamı |
 |----------|--------|
-| `sb` | Serbest Bolge |
-| `km` | Kumas |
-| `is` | Isri Demirtas |
-| `dm` | Aunde Ust Yapi |
+| `sb` | Serbest Bölge |
+| `km` | Kumaş |
+| `is` | İsri Demirtaş |
+| `dm` | Aunde Üst Yapı |
 | `ro` | Romanya Aunde |
 | `hu` | Macaristan Aunde |
 | `de` | Almanya Aunde |
 
-## Platform Kisaltmalari
+## Platform Kısaltmaları
 
-| Kisaltma | Anlami |
+| Kısaltma | Anlamı |
 |----------|--------|
-| `desktop` | Masaustu (WinForms, WPF, MAUI vb.) |
+| `desktop` | Masaüstü (WinForms, WPF, MAUI vb.) |
 | `winsvc` | Windows Service |
-| `web` | Web uygulamasi |
+| `web` | Web uygulaması |
 | `api` | API |
-| `blazor` | Blazor uygulamasi |
+| `blazor` | Blazor uygulaması |
 | `wince` | Windows CE / El terminali |
 | `mobile` | Mobil (Xamarin, MAUI vb.) |
 | `iot` | IoT / Embedded |
-| `console` | Konsol uygulamasi |
-| `lib` | Ortak kutuphane / Class Library |
-| `db` | Veritabani projesi (SSDT vb.) |
+| `console` | Konsol uygulaması |
+| `lib` | Ortak kütüphane / Class Library |
+| `db` | Veritabanı projesi (SSDT vb.) |
 | `test` | Test projesi |
-| `docs` | Dokuman / Sablon / Kaynak |
+| `docs` | Döküman / Şablon / Kaynak |
 
-## Dil Kisaltmalari
+## Dil Kısaltmaları
 
-| Kisaltma | Anlami |
+| Kısaltma | Anlamı |
 |----------|--------|
 | `cs` | C# |
 | `vb` | Visual Basic |
@@ -67,9 +67,9 @@
 | `dart` | Dart (Flutter) |
 | `sql` | SQL |
 
-## Takim Yapisi
+## Takım Yapısı
 
-| Takim | Yetki | Aciklama |
+| Takım | Yetki | Açıklama |
 |-------|-------|----------|
-| **Developer** | Write | Kod yazma, push, PR olusturma |
+| **Developer** | Write | Kod yazma, push, PR oluşturma |
 | **Viewer** | Read | Sadece okuma |
