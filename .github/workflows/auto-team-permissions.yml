@@ -11,10 +11,7 @@ jobs:
   set-team-permissions:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout .github repo
-        uses: actions/checkout@v4
-
-      - name: Yetki ata ve .gitignore ekle
+      - name: Yetki ata
         env:
           GH_TOKEN: ${{ secrets.ORG_ADMIN_TOKEN }}
         run: |
@@ -44,22 +41,4 @@ jobs:
               "https://api.github.com/orgs/$ORG/teams/viewer/repos/$ORG/$REPO" \
               -d '{"permission":"pull"}'
             echo "Viewer -> read"
-
-            # .gitignore ekle (sadece yoksa)
-            EXISTING=$(curl -s -o /dev/null -w "%{http_code}" \
-              -H "Authorization: token $GH_TOKEN" \
-              -H "Accept: application/vnd.github+json" \
-              "https://api.github.com/repos/$ORG/$REPO/contents/.gitignore")
-
-            if [ "$EXISTING" = "404" ]; then
-              CONTENT=$(base64 -w 0 templates/.gitignore)
-              curl -s -X PUT \
-                -H "Authorization: token $GH_TOKEN" \
-                -H "Accept: application/vnd.github+json" \
-                "https://api.github.com/repos/$ORG/$REPO/contents/.gitignore" \
-                -d "{\"message\":\"chore: add .gitignore\",\"content\":\"$CONTENT\"}"
-              echo ".gitignore eklendi"
-            else
-              echo ".gitignore zaten mevcut, atlanıyor"
-            fi
           done
