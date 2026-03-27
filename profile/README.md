@@ -70,4 +70,6 @@
 2. Visibility: **Private** (aksi belirtilmedikce)
 3. **ZORUNLU:** Template olarak `template-default` secilerek olusturulmali
 4. **README.md** dosyasina proje aciklamasini yaz
-5. `.github` repo → Actions → **Auto Assign Team Permissions** calistir (repo adini gir)
+5. Repo → **Settings** → **Collaborators and teams** → **Add teams**:
+   - `Developer` ekle → **Write** yetkisi ver
+   - `Viewer` ekle → **Read** yetkisi ver
