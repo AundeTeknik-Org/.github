@@ -68,6 +68,6 @@
 
 1. Isimlendirme formatina uy: `sirket-platform-dil-projeadi`
 2. Visibility: **Private** (aksi belirtilmedikce)
-3. README.md ekle
-4. .gitignore ekle (proje tipine uygun)
-5. Ilgili takima yetki ata
+3. Template olarak `template-default` sec
+4. **README.md** dosyasina proje aciklamasini yaz
+5. `.github` repo → Actions → **Auto Assign Team Permissions** calistir (repo adini gir)
