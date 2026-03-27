@@ -68,6 +68,6 @@
 
 1. Isimlendirme formatina uy: `sirket-platform-dil-projeadi`
 2. Visibility: **Private** (aksi belirtilmedikce)
-3. Template olarak `template-default` sec
+3. **ZORUNLU:** Template olarak `template-default` secilerek olusturulmali
 4. **README.md** dosyasina proje aciklamasini yaz
 5. `.github` repo → Actions → **Auto Assign Team Permissions** calistir (repo adini gir)
