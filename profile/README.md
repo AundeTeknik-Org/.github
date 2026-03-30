@@ -42,17 +42,17 @@
 
 | Kısaltma | Anlamı |
 |----------|--------|
-| `desktop` | Masaüstü (WinForms, WPF, MAUI vb.) |
+| `desktop` | Masaüstü |
 | `winsvc` | Windows Service |
 | `web` | Web uygulaması |
 | `api` | API |
 | `blazor` | Blazor uygulaması |
 | `wince` | Windows CE / El terminali |
-| `mobile` | Mobil (Xamarin, MAUI vb.) |
+| `mobile` | Mobil |
 | `iot` | IoT / Embedded |
 | `console` | Konsol uygulaması |
 | `lib` | Ortak kütüphane / Class Library |
-| `db` | Veritabanı projesi (SSDT vb.) |
+| `db` | Veritabanı projesi |
 | `test` | Test projesi |
 | `docs` | Döküman / Şablon / Kaynak |
 
