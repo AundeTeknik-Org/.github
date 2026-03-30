@@ -16,7 +16,13 @@
 
 **Örnek:** `sb-desktop-cs-DetayDikimKilit`, `dm-api-ts-StokServis`
 
-## Şirket / Lokasyon Kısaltmaları
+## Kısaltma Tabloları
+
+<table>
+<tr>
+<td valign="top">
+
+### Şirket / Lokasyon
 
 | Kısaltma | Anlamı |
 |----------|--------|
@@ -28,7 +34,10 @@
 | `hu` | Macaristan Aunde |
 | `de` | Almanya Aunde |
 
-## Platform Kısaltmaları
+</td>
+<td valign="top">
+
+### Platform
 
 | Kısaltma | Anlamı |
 |----------|--------|
@@ -46,7 +55,10 @@
 | `test` | Test projesi |
 | `docs` | Döküman / Şablon / Kaynak |
 
-## Dil Kısaltmaları
+</td>
+<td valign="top">
+
+### Dil
 
 | Kısaltma | Anlamı |
 |----------|--------|
@@ -66,6 +78,10 @@
 | `rb` | Ruby |
 | `dart` | Dart (Flutter) |
 | `sql` | SQL |
+
+</td>
+</tr>
+</table>
 
 ## Takım Yapısı
 
