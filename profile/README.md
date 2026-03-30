@@ -26,7 +26,7 @@
 
 | Kısaltma | Anlamı |
 |----------|--------|
-| `org` | Organizasyon geneli / Şubeden bağımsız |
+| `org` | Organizasyon geneli |
 | `sb` | Serbest Bölge |
 | `km` | Kumaş |
 | `is` | İsri Demirtaş |
