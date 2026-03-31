@@ -2,7 +2,7 @@
 
 ## Yeni Repo Oluşturma Kuralları
 
-1. İsimlendirme formatına uy: `şirket-platform-dil-projeadi`
+1. İsimlendirme formatına uy: `şirket-platform-dil-projeadi` veya grup varsa `şirket-platform-dil-grup-projeadi`
 2. Visibility: **Private** (aksi belirtilmedikçe)
 3. **ZORUNLU:** Template olarak `template-default` seçilerek oluşturulmalı
 4. **README.md** dosyasına proje açıklamasını yaz
@@ -13,8 +13,9 @@
 ## Repo İsimlendirme Kuralı
 
 **Format:** `şirket-platform-dil-projeadı`
+**Grup varsa:** `şirket-platform-dil-grup-projeadı`
 
-**Örnek:** `sb-desktop-cs-DetayDikimKilit`, `dm-api-ts-StokServis`
+**Örnek:** `sb-desktop-cs-DetayDikimKilit`, `dm-api-ts-StokServis`, `sb-desktop-cs-Dikim-Kilit`
 
 ## Kısaltma Tabloları
 
