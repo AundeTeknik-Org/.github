@@ -66,19 +66,11 @@
 |----------|--------|
 | `cs` | C# |
 | `vb` | Visual Basic |
-| `js` | JavaScript |
-| `ts` | TypeScript |
 | `py` | Python |
 | `java` | Java |
-| `kt` | Kotlin |
 | `swift` | Swift |
-| `go` | Go |
-| `rs` | Rust |
-| `cpp` | C++ |
 | `c` | C |
 | `php` | PHP |
-| `rb` | Ruby |
-| `dart` | Dart (Flutter) |
 | `sql` | SQL |
 | `xamarin` | Xamarin |
 | `maui` | .NET MAUI |
