@@ -47,7 +47,6 @@
 | `winsvc` | Windows Service |
 | `web` | Web uygulaması |
 | `api` | API |
-| `blazor` | Blazor uygulaması |
 | `wince` | Windows CE / El terminali |
 | `mobile` | Mobil |
 | `iot` | IoT / Embedded |
