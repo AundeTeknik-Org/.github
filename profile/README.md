@@ -80,6 +80,8 @@
 | `rb` | Ruby |
 | `dart` | Dart (Flutter) |
 | `sql` | SQL |
+| `xamarin` | Xamarin |
+| `maui` | .NET MAUI |
 
 </td>
 </tr>
