@@ -44,7 +44,7 @@
 | Kısaltma | Anlamı |
 |----------|--------|
 | `desktop` | Masaüstü |
-| `winsvc` | Windows Service |
+| `svc` | Service |
 | `web` | Web uygulaması |
 | `api` | API |
 | `wince` | Windows CE / El terminali |
